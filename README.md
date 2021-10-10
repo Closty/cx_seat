@@ -30,7 +30,7 @@ passwd=学习通密码
 
 ## 接口返回
 
-```json
+```
 {'sucess': False, 'msg': 'You don't have a seat yet and cannot sign!'}
 {'sucess': False, 'msg': 'Unknown error, failed!'}
 {'sucess': False, 'msg': 'You are not currently seated and cannot leave your seat!'}
