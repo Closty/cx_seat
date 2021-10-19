@@ -20,7 +20,7 @@ active_id=leave                      表明暂离座位
 
 active_id=cancel                    表明取消座位
 
-active_id=rob                         表明抢座（暂时无法使用，请等待更新）
+active_id=rob                         表明抢座
 
 username=学习通账号（仅支持手机号登陆）
 
@@ -54,13 +54,16 @@ passwd=学习通密码
 
 ## 关于抢座
 
-其实，抢座的脚本已经开发完毕了，但害怕使用的人数太多会被封掉而自己每天确实需要去图书馆，目前没有开放API的想法。请原谅我的自私
+抢座只会获取最近一次预约的座位信息，并对照该座位信息（包括座位号码以及预约时间段）执行第二天抢座
 
-但是如果你真的需要使用抢座脚本，我可以帮你挂上，5元/月吧，如果合用的话会略高于服务器成本
+注意：抢座时请在规定时间内执行本程序，否则会触发非法预约（接口返回'Your reservation is illegal'）。有封号的风险！
 
-前提是你真的，真的，真的需要每天去图书馆，否则请勿联系！请谅解！
-
-网址：[https://ssss.men](https://ssss.men)
+```
+{'sucess': False, 'msg': 'This seat has been occupied by others!'}
+{'sucess': False, 'msg': 'You already have a reservation for this time period, so please change to another time!'}
+{'sucess': False, 'msg': 'Your reservation is illegal, maybe cause the Reservation Time is not advent!'}
+{'sucess': True, 'msg': 'Reservation is successful!'}
+```
 
 ## 注意
 
