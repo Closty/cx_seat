@@ -6,7 +6,7 @@
 
 ## 接口使用案例
 
-```json
+```
 http://cx_api.ssss.men/cxapi?active_id=sign&username=19541817688&passwd=ilovesunn
 ```
 
@@ -20,7 +20,10 @@ active_id=leave                      表明暂离座位
 
 active_id=cancel                    表明取消座位
 
-active_id=rob                         表明抢座
+active_id=rob                         表明预约第二天座位
+
+active_id=rob1                        表明预约今天的座位
+
 
 username=学习通账号（仅支持手机号登陆）
 
@@ -54,9 +57,9 @@ passwd=学习通密码
 
 ## 关于抢座
 
-抢座只会获取最近一次预约的座位信息，并对照该座位信息（包括座位号码以及预约时间段）抢第二天的座位
+抢座只会获取最近一次预约的座位信息，并对照该座位信息预约  第二天(active_id=rob)或今天(active_id=rob1)  的座位
 
-注意：抢座时请在规定时间（一般为晚上九点以后）内执行本程序，否则会触发非法预约（接口返回'Your reservation is illegal'）。有封号的风险！
+注意：抢座时请在规定时间内执行本程序，否则会触发非法预约（接口返回'Your reservation is illegal'）。有封号的风险！
 
 ```
 {'sucess': False, 'msg': 'This seat has been occupied by others!'}
