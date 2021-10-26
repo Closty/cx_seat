@@ -53,7 +53,7 @@ passwd=学习通密码
 
 1.您的学校在晚上八点后可以预约第二天的座位，如果您想预约第二天的座位，那么您可以在今晚八点定时访问这样的网址https://cx_api.ssss.men/cxapi?active_id=rob&username=此处填入学习通账号&passwd=此处填入密码
 
-2.您的学校在早上七点后可以预约今天的座位，如果您想预约今天的座位，那么您可以在今早七点点定时访问这样的网址https://cx_api.ssss.men/cxapi?active_id=rob1&username=此处填入学习通账号&passwd=此处填入密码
+2.您的学校在早上七点后可以预约今天的座位，如果您想预约今天的座位，那么您可以在今早七点定时访问这样的网址https://cx_api.ssss.men/cxapi?active_id=rob1&username=此处填入学习通账号&passwd=此处填入密码
 
 注意上述网址中一个active_id为'rob'另一个为'rob1'
 
