@@ -57,7 +57,7 @@ passwd=学习通密码
 
 ## 关于抢座
 
-抢座只会获取最近一次预约的座位信息，并对照该座位信息预约  第二天(active_id=rob)或今天(active_id=rob1)  的座位
+抢座只会获取最近一次预约的座位信息(包括预约时间段、预约座位号码等)，并对照该座位信息预约  第二天(active_id=rob)或今天(active_id=rob1)  的座位
 
 注意：抢座时请在规定时间内执行本程序，否则会触发非法预约（接口返回'Your reservation is illegal'）。有封号的风险！
 
@@ -71,3 +71,8 @@ passwd=学习通密码
 ## 注意
 
 本接口的开发初始目的——为仅使用老人机的同学提供公平的学习环境，请勿商用！
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Closty/cx_seat.svg)](https://github.com/Closty/cx_seat)
+
