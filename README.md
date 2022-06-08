@@ -1,4 +1,4 @@
-# 待更新
+# 待更新(没时间更新，可以去隔壁看看https://github.com/Doone-skser/SSA，原理相似）
 届时会推出我在使用的
 ![752568F9-DED3-4B39-AE91-A421B4AC0905.jpeg](https://i.loli.net/2021/11/10/W1Z2KTzU6xtJfyc.jpg)
 
